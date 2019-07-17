@@ -15,7 +15,7 @@ class CharacterListView extends React.Component {
 
   render() {
     if (this.props.isFetching) {
-      <h2>Fetching star wars characters...</h2>;
+      // <h2>Fetching star wars characters...</h2>;
     }
     return (
       <div className="CharactersList_wrapper">
